@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0px; padding: 0px;}
+a {text-decoration: none; color: white;}
+a:hover {
+	color: #FF0; 
+}
+a:active {
+	color: #72079A;
+}
+.log{
+	text-align: center;
+}
+.menu ul > li > a {
+	text-decoration: none; 
+	color: white;
+	line-height: 40px;
+	display: block;
+}
+.menu > ul {list-style-type: none;}
+.menu > ul > li {
+	float: left;
+	width: 125px;
+	text-align:center; 
+	border-right: 1px soild #FFF;
+	position: relative;
+}
+.menu > ul > li >a:hover {
+	color: #FF0;
+	background:#212121;
+}
+.menu > ul > li >a:active {
+	color: #72079A;
+}
+.submenu {
+	list-style-type: none;
+	background: #212121;
+	width: 125px;
+	display: none;
+	position: absolute;
+}
+.submenu > li {
+	border-top: 1px solid #CDD563;
+}
+.submenu > li >a {
+	text-decoration: none; 
+	color: #FFF;
+	line-height: 40px;
+	display: block;
+}
+.menu ul li:hover .submenu{
+	display: block;
+}
+.submenu > li > a:hover {
+	color: #FF0;
+	background:#212121;
+}
+.total {
+	background: #5a5454;
+}
+.container {
+	margin: auto;
+	width: 900px;
+	height: 1955px;
+}
+.header{
+	width: 900px;
+	height: 50px;
+	background: #212121;
+}
+.logsign{
+	width: 900px;
+	height: 30px;
+	background: #312A2A;
+}
+.nganmenu {
+	width: 900px;
+	height: 5px;
+	background: #CCBF2B;
+}
+.menu {
+	width: 900px;
+	height: 40px;
+	background: #312A2A;
+}
+.center {
+	width: 900px;
+	height: 1755px;
+	background: #3e3e3e;
+}
+.hr{
+	margin-top: 5px;
+	width: 888px;
+	margin-left: 5px;
+	border-width: 1px;
+	display: block;
+	border-style:outset;
+}
+.textphim {
+	padding-top: 10px;
+	margin-left: 5px;
+	color: #E6ED47;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 22px;
+}
+.margint{
+	padding-top: 5px;
+}
+.fixmovie{
+	margin-left: 5px;
+	padding-top: 5px;
+}
+.topmovie {
+    margin-left: 5px;
+    width: 890px;
+    height: 270px;
+    background: #212121;
+}
+.fontfilm{
+	color: white;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 15px;
+	margin-left: 6px;
+}
+.bottom {
+	width: 900px;
+	height: 150px;
+	background: #212121;
+	}

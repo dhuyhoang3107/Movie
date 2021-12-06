@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0px; padding: 0px;}
+*{box-sizing: border-box;}
+.menu > div > input {
+	float: right;
+}
+.title { 
+	float: left;
+}
+.menu > div > input {
+	 width: 240px;
+	 height: 28px;
+	 border-radius: 12px;
+	 float: left;
+	 margin-left:10px;
+	 margin-top: 5px;
+	 border: none;
+}
+.menu > div > a > i {
+	float: left;
+	margin-top: 12px;
+	margin-left: 6px;	
+}
+a {text-decoration: none; color: white;}
+
+.menu ul > li > a {
+	text-decoration: none; 
+	color: white;
+	line-height: 40px;
+	display: block;
+}
+.menu > ul {list-style-type: none;}
+.menu > ul > li {
+	float: left;
+	width: 125px;
+	text-align:center; 
+	border-right: 1px soild #FFF;
+	position: relative;
+}
+.menu > ul > li >a:hover {
+	color: #FF0;
+	background:#212121;
+}
+.menu > ul > li >a:active {
+	color: #72079A;
+}
+.submenu {
+	list-style-type: none;
+	background: #212121;
+	width: 125px;
+	display: none;
+	position: absolute;
+}
+.submenu > li {
+	border-top: 1px solid #CDD563;
+}
+.submenu > li >a {
+	text-decoration: none; 
+	color: #FFF;
+	line-height: 40px;
+	display: block;
+}
+.menu ul li:hover .submenu{
+	display: block;
+}
+.submenu > li > a:hover {
+	color: #FF0;
+	background:#212121;
+}
+.total {
+	background: #5a5454;
+}
+.container {
+	margin: auto;
+	width: 900px;
+	height: 1056px;
+}
+.header{
+	width: 900px;
+	height: 50px;
+	background: #212121;
+}
+.nganmenu {
+	width: 900px;
+	height: 5px;
+	background: #CCBF2B;
+}
+.menu {
+	width: 900px;
+	height: 40px;
+	background: #312A2A;
+}
+.center {
+	width: 900px;
+	height: 720px;
+	background: #3e3e3e;
+}
+.film {
+	width: 720px;
+	height: 640px;
+	margin-left: 85px;
+	background: #423535;
+}
+.hr{
+	width: 900px;
+	border-width: 0.5px;
+	display: block;
+	border-style:outset;
+}
+.namefilm{
+	width: 900px;
+	height: 40px;
+	background:#312A2A; 
+}
+.textten{
+	text-align: center;
+	color: white;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.tottalimg{
+	margin-left: 5px;
+    width: 890px;
+    height: 270px;
+    background: #212121;
+}
+.tottalxp{
+	margin-top: 5px;
+	margin-left: 5px;
+    width: 890px;
+    height: 45px;
+    background: #212121;
+}
+.ddbutton{
+	float: left;
+	width: 250px;
+	text-align: center;
+	height: 40px;
+	padding-top: 2.5px;
+	margin-left: 5px;
+}
+.button{
+  	background: #943131!important;
+ 	border: none;
+ 	color: white;
+ 	padding: 5px 20px;
+  	text-align: center;
+ 	text-decoration: none;	
+  	display: inline-block;
+  	font-size: 14px;
+	width: 120px;
+	height: 40px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-left: 3px solid #484848!important;
+	
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background: #797979;
+}
+.button1{
+	background: #3b7771!important;
+ 	border: none;
+ 	color: white;
+ 	padding: 5px 20px;
+  	text-align: center;
+ 	text-decoration: none;	
+  	display: inline-block;
+  	font-size: 14px;
+	width: 120px;
+	height: 40px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-left: 3px solid #484848!important;
+}
+.button1:hover {
+	background: #797979;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.danhgia{
+	width: 100px;
+	height: 30px;
+	float: right;
+	margin-right: 30px;
+	line-height: 45px;
+}
+.select{
+	font-size: 14px;
+	border: 1px solid #4a4a4a;
+	font-family: 'Pridi', serif;
+	color: #ccc!important;
+	background-color: #141414!important;
+    width: 140px;
+	height: 30px;
+}
+.tottaltt{
+	margin-left: 5px;
+    width: 890px;
+    height: 385px;
+    background: #212121;
+}
+.titleimg{
+	float: left;
+	width: 200px;
+	height: 260px;
+	margin-left: 5px;
+	padding-top: 5px;
+}
+.titletrailer{
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+	width: 670px;
+	height: 260px;
+	background: #8B3A3C;
+}
+.textphim {
+	padding-top: 10px;
+	margin-left: 5px;
+	color: #E6ED47;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 22px;
+}
+.margint{
+	padding-top: 5px;
+}
+.fixmovie{
+	margin-left: 5px;
+	padding-top: 5px;
+}
+.topmovie {
+    margin-left: 5px;
+    width: 890px;
+    height: 270px;
+    background: #212121;
+}
+.fontfilm{
+	color: white;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 15px;
+	margin-left: 6px;
+}
+.bottom {
+	width: 900px;
+	height: 200px;
+	background: #212121;
+	}
+.sotrang{
+	width: 100px;
+}
+.st{
+	color: #FFF;
+	border: 1px solid #ccc!important;
+	width: 40px;
+	height: 30px;
+	background: #404040; 
+	margin: 10px 0px 0px 5px;
+	border-radius: 3px;
+}
+.st:hover{
+	background: #962b2b;
+}
+.fontst{
+	color: #9a9a9a!important;
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	margin: 15px 0px 0px 5px;
+}
+.hrst{
+	width: 240px; color:#D65959; margin: 15px 0px 0px 5px;
+}
+.fontnd{
+	color: #FFF;
+}
+.ndung{
+	color: #dacb46!important;
+	font-size: 18px;
+	line-height: 39px;
+	font-family: 'Pridi', serif;
+	margin-left: 5px;
+}
+.btchuthich{
+	width: 550px;
+	background: #FFF;
+}
+/* CSS Document */
+

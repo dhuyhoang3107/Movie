@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0px; padding: 0px;}
+*{box-sizing: border-box;}
+.title { 
+	float: left;
+}
+.header > div > input {
+	 width: 240px;
+	 height: 28px;
+	 border-radius: 12px;
+	 float: right;
+	 margin-right:10px;
+	 margin-top: 10px;
+	 border: none;
+}
+.header > div > a {
+	color: #FFF;
+}
+.header > div > a > i {
+	float: right;
+	margin-top: 18px;
+	margin-right: 15px;	
+}
+.total {
+	background: #5a5454;
+}
+.container {
+	margin: auto;
+	width: 900px;
+	height: 860px;
+}
+.nganmenu {
+	width: 900px;
+	height: 5px;
+	background: #CCBF2B;
+}
+.header{
+	width: 900px;
+	height: 50px;
+	background: #212121;
+}
+.center {
+	padding-top: 10px;
+	width: 900px;
+	height: 605px;
+	background: #3e3e3e;
+}
+.sign{
+	margin-left: 5px;
+	width: 890px;
+	height: 580px;
+	background: #2d2d2d;
+}
+.logsign{
+	width: 890px;
+	height: 50px;
+	background: #555f6b;
+}
+.canle{
+	margin-left: 5px;
+	width: 890px;
+	height: 8px;
+	background: #a53232;
+}
+.bottom {
+	width: 900px;
+	height:200px;
+	background: #212121;
+}
+.ndung{
+	color: #dacb46!important;
+	font-size: 18px;
+	line-height: 39px;
+	font-family: 'Pridi', serif;
+	margin-left: 5px;
+}
+.fontnd{
+	color: #FFF;
+}
+.lienket1{ 
+	margin-left: 15px;
+	padding: 12px;
+	width: 120px;
+	height: 50px;
+    background: #767879;
+	color: #ccc!important;
+	text-align: center;
+	text-decoration: none;
+    display: inline-block;
+	font-family: 'Roboto', sans-serif;
+ }
+.lienket2{   
+	padding: 12px;
+	width: 120px;
+	height: 50px;
+    background: #2d2d2d;
+	color: #ccc!important;
+	text-align: center;
+	text-decoration: none;
+    display: inline-block;
+	font-family: 'Roboto', sans-serif;
+       }
+.lienket1:hover{
+    border-top: 1px solid #FFF;
+}
+.lienket2:hover{
+    border-top: 1px solid #FFF;
+}
+.sizefr {
+	width: 600px;
+	height: 400px;
+	margin: 50px 0px 0px 100px;
+}
+.txtnd{
+	margin-left:100px; 
+	margin-top:17px; 
+	float:left;
+	width:70px; 
+	color:#FFF;
+}
+.txtinput{ 
+	color: #fff;
+	margin-top:5px; 
+	margin-left:50px; 
+	width:350px; 
+	height:40px; 
+	background: #633b3b;
+	border: 1px solid #985f5f;
+}
+.txtcanle{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.login{
+	padding: 2px 0px 0px 2px;
+	font-size: 15px;
+	background: #5893c5;
+	border: 1px solid #9cc8ec;
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	text-decoration: none;
+    display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+.login:hover {
+	background: #4555A5;
+}
+.canlogin{
+	margin-left: 300px;
+}

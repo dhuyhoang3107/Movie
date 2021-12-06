@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0px; padding: 0px;}
+*{box-sizing: border-box;}
+.title { 
+	float: left;
+}
+.header > div > input {
+	 width: 240px;
+	 height: 28px;
+	 border-radius: 12px;
+	 float: right;
+	 margin-right:10px;
+	 margin-top: 10px;
+	 border: none;
+}
+.header > div > a > i {
+	float: right;
+	margin-top: 18px;
+	margin-right: 15px;	
+}
+a{text-decoration: none;color: #FFF;}
+.total {
+	background: #5a5454;
+}
+.container {
+	margin: auto;
+	width: 900px;
+	height: 1061px;
+}
+.header{
+	width: 900px;
+	height: 50px;
+	background: #212121;
+}
+.nganmenu {
+	width: 900px;
+	height: 5px;
+	background: #CCBF2B;
+}
+.menu {
+	width: 900px;
+	height: 40px;
+	background: #312A2A;
+}
+.center {
+	width: 900px;
+	height: 805px;
+	background: #3e3e3e;
+}
+.hr{
+	margin-top: 5px;
+	width: 888px;
+	margin-left: 5px;
+	border-width: 1px;
+	display: block;
+	border-style:outset;
+}
+.textphim {
+	padding-top: 10px;
+	margin-left: 5px;
+	color: #E6ED47;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 22px;
+}
+.margint{
+	padding-top: 5px;
+}
+.fixmovie{
+	float: left;
+	margin-left: 2.5px;
+	padding-top: 2.5px;
+	width: 160px;
+}
+.topmovie {
+    margin-left: 5px;
+    width: 890px;
+    height: 270px;
+    background: #212121;
+}
+.fontfilm{
+	color: white;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 15px;
+	margin-left: 6px;
+}
+.bottom {
+	width: 900px;
+	height: 200px;
+	background: #212121;
+	}
+.btchuthich{
+	width: 550px;
+	background: #FFF;
+}
+.ndung{
+	color: #dacb46!important;
+	font-size: 18px;
+	line-height: 39px;
+	font-family: 'Pridi', serif;
+	margin-left: 5px;
+}
+.fontnd{
+	color: #FFF;
+}
+.totalfilm{
+	width: 570px;
+	height: 175px;
+	background: #5B5757;
+}
+.textfilm{
+	float: left;
+	margin: 5px 0px 0px 5px;
+	text-transform: uppercase;
+    font: 16px 'UTMCafetaRegular';
+    color: #dacb46;
+    display: block;
+	font-weight: bold;
+}
+.textttndung{
+	border: 1px solid #121212;
+	margin-left: 5px;
+	margin-top: 2.5px;
+	margin-right: 5px;
+	float: left;
+	width: 395px;
+	height: 140px;
+	background: #222;
+}
+.colortext{
+	text-align: justify;
+	background: #222;
+	color: #BBB;
+}
+.loadfilm{
+	float: left;
+	padding-top: 2.5px;
+	margin-left: 2.5px;
+	width: 570px;
+	height: 495px;
+}
+.listfilm{
+	margin-top: 10px;
+	margin-left: 15px;
+	float: left;
+	width: 300px;
+	height:735px;
+	background:#323031;
+	overflow-x:hidden;
+}
+.test{
+	margin-top: 5px;
+	margin-left: 5px;
+	width:300px;
+	height:800px;
+	overflow-y: visible;	
+}
+#style1::-webkit-scrollbar{
+	width: 8px;
+	background-color: darkgray;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#style1::-webkit-scrollbar-thumb{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+	border-radius: 5px;
+}
+.filmpb{ 
+	margin-left: 5px;
+	float: left;
+	width: 170px;
+	height: 130px;
+}
+.colorflim{
+	color: aqua;
+}
+.titlefilm{
+	width: 290px;
+	height: 135px;
+}.hrfilm{
+	color: #767575;
+	width: 280px; 
+	margin-left: 2.5px;
+}
+.textfilm1{
+	float: left;
+	padding-top: 10px;
+	margin-left: 15px;
+	color: #E6ED47;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 22px;
+}
+.divbt {
+    margin-top: 55px;
+    text-align: center;
+    width: 570px;
+    height: 30px;
+}
+.bt{
+	color: #FFF;
+	border: 1px solid #ccc!important;
+	width: 70px;
+	height: 30px;
+	background: #000;
+}
+.bt:hover{
+	background: #962b2b;
+}
